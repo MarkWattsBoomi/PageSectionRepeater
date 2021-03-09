@@ -1,0 +1,31 @@
+.g13filtercombo {
+    
+}
+
+.g13filtercombo-body {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 30px;
+}
+
+.g13filtercombo-element {
+    display: flex;
+    flex-direction: column;
+}
+
+.g13filtercombo-title {
+    font-size: 20px;
+    color: #3db1a5;
+}
+
+.g13filtercombo-select {
+    appearance: revert !important;
+    -webkit-appearance: revert !important;
+    background-image: none !important;
+    font-size: 20px !important;
+    border: 3px solid #999 !important;
+    border-radius: 7px !important;
+    padding: 5px !important;
+    min-width: 200px;
+    margin-right: 30px !important;
+}

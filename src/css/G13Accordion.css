@@ -1,0 +1,152 @@
+.g13accordion {
+    display: flex;
+    flex-direction: column;
+}
+
+.g13accordion-element {
+    display: flex;
+    flex-direction: column;
+}
+
+.g13accordion-element-header {
+    display: flex;
+    flex-direction: row;
+    line-height: 1.1rem;
+}
+
+.g13accordion-element-header-expander {
+    display: flex;
+    flex-direction: row;
+    padding-left: 2rem;
+    padding-right: 1rem;
+}
+
+.g13accordion-element-header-expandericon {
+    color: #009688;
+    cursor: pointer;
+}
+
+.g13accordion-element-header-title {
+    display: flex;
+    flex-direction: row;
+}
+
+.g13accordion-element-header-title-text {
+    color: #009688;
+    font-size: 1.1rem;
+    font-family: Helvetica;
+}
+
+
+
+.g13accordion-element-body {
+    display: flex;
+    flex-direction: column;
+    padding-left: 5rem;
+    padding-top: 1rem;
+}
+
+.g13accordion-element-row {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 1rem;
+}
+
+.g13accordion-element-row-label {
+    display: flex;
+    flex-direction: row;
+    flex-basis: 15rem;
+    flex-grow:0;
+    flex-shrink: 0;
+}
+
+.g13accordion-element-row-label-text {
+    font-size: 1.1rem;
+    font-family: Helvetica;
+    font-weight: 500;
+    text-align: right;
+    margin-left: auto;
+    padding-right: 1rem;
+}
+
+.g13accordion-element-row-value {
+    display: flex;
+    flex-direction: row;
+    flex-grow:1;
+    flex-shrink: 1;
+}
+
+.g13accordion-element-row-value-text {
+    font-size: 1.1rem;
+    font-family: Helvetica;
+    font-weight: 600;
+}
+
+.g13accordion-element-group {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 1rem;
+}
+
+.g13accordion-element-group-label {
+    display: flex;
+    flex-direction: row;
+    flex-basis: 15rem;
+    flex-grow:0;
+    flex-shrink: 0;
+}
+
+.g13accordion-element-group-label-text {
+    font-size: 1.1rem;
+    font-family: Helvetica;
+    font-weight: 500;
+    text-align: right;
+    margin-left: auto;
+    padding-right: 1rem;
+}
+
+.g13accordion-element-group-body {
+    display: flex;
+    flex-direction: column;
+    flex-grow:1;
+    flex-shrink: 1;
+}
+
+.g13accordion-element-group-item {
+    display: flex;
+    flex-direction: row;
+}
+
+.g13accordion-element-group-item-label {
+    display: flex;
+    flex-direction: row;
+    display: list-item;
+    list-style-type: disc;
+    list-style-position: inside;
+}
+
+.g13accordion-element-group-item-label-text {
+    font-size: 1.1rem;
+    font-family: Helvetica;
+    font-weight: 500;
+    text-align: right;
+    margin-left: auto;
+    padding-right: 1rem;
+}
+
+.g13accordion-element-group-item-value {
+    display: flex;
+    flex-direction: row; 
+}
+
+.g13accordion-element-group-item-value-text {
+    font-size: 1.1rem;
+    font-family: Helvetica;
+    font-weight: 600;
+}
+
+.g13accordion-element-header-empty-title-text {
+    margin-left: 3rem;
+    margin-bottom: 1rem;
+    display: list-item;
+}
