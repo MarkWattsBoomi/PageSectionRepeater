@@ -4,6 +4,11 @@ It overrides the basic CHART container component.
 
 It allows attaching a list to a container and for each element in that list the child elements of the container will be repeated per list item.
 
+The latest version can be included in your player from this location: -
+
+https://files-manywho-com.s3.amazonaws.com/e1dbcceb-070c-4ce6-95b0-ba282aaf4f48/psr.js
+https://files-manywho-com.s3.amazonaws.com/e1dbcceb-070c-4ce6-95b0-ba282aaf4f48/psr.css
+
 
 
 ## Functionality
