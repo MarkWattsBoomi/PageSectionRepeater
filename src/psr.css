@@ -1,0 +1,75 @@
+.psr-paginationbar {
+    display: flex;
+    flex-direction: row;
+}
+
+.psr-paginationbar-buttons {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 0;
+    margin-left: auto;
+}
+
+.psr-pagination-button {
+    color: #111;
+    margin: auto;
+    font-size: 1.2rem;
+    top: 0 !important;
+}
+
+.psr-pagination-button:hover {
+    color: #444;
+}
+
+.psr-pagination-button-disabled {
+    color: #ccc;
+    pointer-events: none;
+}
+
+.psr-pagination-label {
+    color: #111;
+    margin: auto;
+    font-size: 1.2rem;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+}
+
+.psr-ribbonbar {
+    display: flex;
+    flex-direction: row;
+}
+
+.psr-ribbonbar-buttons {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 0;
+    margin-left: auto;
+    margin-bottom: 1rem;
+}
+
+.psr-ribbonbar-button {
+    display: flex;
+    flex-direction: row;
+    background-color: #0c7cd5;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border-radius: 0.2rem;
+    padding-top: 0.3rem;
+    padding-bottom: 0.3rem;
+    cursor: pointer;
+    margin-left: 1rem;
+}
+
+.psr-ribbonbar-button-icon {
+    font-size: 1rem;
+    color: #fefefe;
+    margin: auto;
+    top: 0 !important;
+    margin-right: 0.3rem;
+}
+
+.psr-ribbonbar-button-label {
+    font-size: 1rem;
+    color: #fefefe;
+    margin: auto;
+}

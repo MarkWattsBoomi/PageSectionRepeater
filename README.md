@@ -30,9 +30,13 @@ The repeated child elements are simply copied, as is, and added to the page tied
 
 ### classes
 
-Like all components, adding a "classes" attribute will cause that string to be added to the base container's class value
+Like all components, adding a "classes" attribute will cause that string to be added to the base container's class value.
 
-### ListName
+### repeatClasses
+
+A string containing class names to be added to each base repeating section. 
+
+### modelField
 
 Applied as an attribute on the base repeating container.
 
@@ -40,7 +44,13 @@ Tells the container where to get its list of values to repeat.
 
 The developerName of the list.
 
-### FieldName
+### stateField
+
+Tells the repeater the name of the Flow field to store the selected item into.
+
+The developer name of an single object field of the same type as the modelField
+
+### fieldName
 
 Applied at the page component level.
 
@@ -50,6 +60,25 @@ Just the attribute name excluding the parent object.
 
 If the repeating list object itself contains a complex object with attributes then you can specify this with attributeName->childAttributeName adding the arrow separator "->"
 
+## label, helpInfo & hintInfo
+
+All of these may contain either simple text or you can include value attributes by enclosing them in double curley braces 
+
+e.g. "Some basic text {{title_attribute_name}} {{some other attribute}}".
+
+you can also put {{#}} to inject the current repeaters index number.
+
+## Presentations
+
+You can inject replacable values using the double curley braces syntax.
+
+e.g. " Some basic text {{title_attribute_name}} {{some other attribute}} "
+
+## Curly Brace Notation
+
+You can also refer to child attribute values by using the "->" operator.
+
+e.g.  {{attributeName->ChildAttributeName->>GrandChildAttibuteName}}
 
 
 
