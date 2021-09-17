@@ -37,6 +37,7 @@
 .psr-ribbonbar {
     display: flex;
     flex-direction: row;
+    line-height: 1;
 }
 
 .psr-ribbonbar-buttons {
@@ -50,19 +51,23 @@
 .psr-ribbonbar-button {
     display: flex;
     flex-direction: row;
-    background-color: #0c7cd5;
-    padding-left: 1rem;
-    padding-right: 1rem;
-    border-radius: 0.2rem;
+    background-color: rgb(0,0,0,0);
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    border-radius: 1.5rem;
     padding-top: 0.3rem;
     padding-bottom: 0.3rem;
     cursor: pointer;
     margin-left: 1rem;
 }
 
+.psr-ribbonbar-button:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
 .psr-ribbonbar-button-icon {
     font-size: 1rem;
-    color: #fefefe;
+    color: #111;
     margin: auto;
     top: 0 !important;
     margin-right: 0.3rem;
@@ -70,6 +75,8 @@
 
 .psr-ribbonbar-button-label {
     font-size: 1rem;
-    color: #fefefe;
+    color: #111;
     margin: auto;
+    text-decoration: underline;
+    text-underline-offset: 3px;
 }
